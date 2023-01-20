@@ -9,8 +9,14 @@ if(a > b)
     Console.Write("max = ");
     Console.Write(a);
 }
-else
+
+else if(a < b)
 {
     Console.Write("max = ");
-    Console.WriteLine(b);
+    Console.Write(b);
+}
+
+else
+{
+    Console.Write("числа равны");
 }
